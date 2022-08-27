@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <!--Font Famili-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/script.js"></script>
+    <title>Challenge 1</title>
+</head>
+<body>
+    <main>
+        <!--Parte del logo junto con el titulo de la pagina-->
+        <header>
+          <img class="logoimg" src="imagenes/alu-.png" alt="logo de el encriptado">
+          <h1 class="title">Encriptador de mensajes</h1>
+        </header>
+        
+        <!--Caja de información del lado izquierdo-->
+        <section class="left">
+            <!--Informacion que le debemos meter para que se encripte la informacion-->
+            <input type="text" id="text-input" class="text-input1" placeholder="Ingrese la informacion Aquí">
+        </section>
+        
+        <!--caja de información del lado derecho-->
+        <section class="right">
+            <img src="/imagenes/1-removebg-preview.png" alt="imagen de la personaje con la lupa" id="imgDer">
+            <h2 id="texto-der">No fue encontrado ningun mensaje encriptado</h2>
+            <textarea name="" id="texto-der-2" cols="30" rows="10">Ingrese el texto que desea encriptar o desencriptar</textarea>
+            <button type="button" id="boton-copy" onclick="copiar()">¡Copiar!</button>
+        </section>
+
+        <!--Aqui van unos botones-->
+        <div class="left-buttom">
+            <p>Solo letras minisculas y sin acentos</p>
+            <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+    </main>
+</body>
+
+</html>

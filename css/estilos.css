@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f3f5fc;
+}
+/*Caja general*/
+main{
+    margin: auto;
+    width: auto;
+    height: 750px;
+    padding: 5px;
+   
+}
+/*Logotipo de parte de arriba*/
+header{
+    width: 100%;
+    float: left;
+    
+}
+.logoimg{
+    /*poscionamiento de la imagen A*/
+    width: 50px;
+    height: 50px;
+    float: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.title{
+    /*Posicionamiento de la las letras que dicen encriptador de mensajes*/
+    margin-top: 2.7%;
+    font-family: 'Silkscreen', cursive;
+    margin-left: 1200px;
+    margin-bottom: 30px;
+}
+
+/*caja de información general*/
+.left{
+    /*Caja general de la información de la izquierda*/
+    float: left;
+    width: 65%;
+    height: 80%;
+    border-radius: 24px;
+    margin-top: 15px;
+}
+.right{
+    /*Caja general de la información de la derecha*/
+    float:right;
+    height: auto;
+    border-radius: 24px;
+    margin-top: 15px;
+}
+/*Caja de información del lado left*/
+.text-input1{
+    /*Caja donde va air la información del lado izquierdo*/
+    float: left;
+    margin-left: 10%;
+    border: none;
+    margin: 3%;
+    width: 80%;
+    height: 80%;
+    color: #0a3871;
+    font-size: 25px;
+    outline: none;
+    background-color: #f3f5fc;
+}
+/*Caja de informacion del labo rigth*/
+#imgDer{
+    margin-top: 2.5%;
+    width: 80%;
+    height: auto;
+}
+#texto-der{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#texto-der-2{
+    border: none;
+    outline: none;
+    float: left;
+    margin-left: 2.5%;
+    color: #0a3871;
+    height: 80%;
+    width: 60%;
+
+}
+#boton-copy{
+ /*boton que aparecera cuando encriptemos o desencriptemos la información
+ para poder copiar*/
+    margin-left: 33%;
+    margin-top: 15%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #d8dfe8;
+    border-radius: 24px;
+    border: none;
+    
+}
+/*botones funcion general*/
+.left-buttom{
+    float: left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+}
+#boton-encriptar{
+    /*boton para encriptar*/
+    padding: 24px;
+    border: none;
+    width: 25%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    margin-top: 15%;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+}
+#boton-desencriptar{
+    /*boton para encriptar*/
+    padding: 24px;
+    border: none;
+    width: 25%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    margin-top: 15%;
+    background-color: #d8dfe8;
+    color: black;
+    cursor: pointer;
+}
